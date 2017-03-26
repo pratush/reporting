@@ -1,10 +1,11 @@
-package com.shc.ecom.sywrelay.reporting.controller;
+package com.pk.reporting.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class TestController {
+	
 	@RequestMapping("/test")
 	public String test(){
 		return "successs";
